@@ -1,4 +1,4 @@
-@media (max-width: 899px){
+@media only screen and (max-width: 899px){
 .imagem{
     display: block;
     margin: auto;
@@ -30,11 +30,13 @@ footer{
     color: white;
     align-items: center;
     display: block;
-    gap: 1cm;
+    padding: 1cm;
+    height: auto;
+    margin-top: 0;
 }
 
 
-@media (min-width: 900px){
+@media only screen and (min-width: 900px){
 h1{
     text-align: left;
 }
